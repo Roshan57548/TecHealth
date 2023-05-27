@@ -1,0 +1,21 @@
+#Footer-1{
+    text-align: left;
+    color: #34a853;
+}
+.Footer-Color{
+    color: black;
+}
+#TextNone{
+    cursor: pointer;
+    text-decoration: none;
+}
+#footer-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    #Footer-1{
+        text-align: center;
+        color: #34a853;
+    }
+}
