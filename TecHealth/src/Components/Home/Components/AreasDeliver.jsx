@@ -2,7 +2,7 @@ import React from 'react'
 import './Style/AreasDeliver.css';
 const AreasDeliver = () => {
   return (
-    <div>AreasDeliver</div>
+    <div>AreassDeliver</div>
   )
 }
 
