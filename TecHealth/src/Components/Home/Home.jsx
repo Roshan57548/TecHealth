@@ -28,7 +28,7 @@ const Home = () => {
         <Insights data={ContentInsights}/>
         <NeedAmbulance data={ContentNeedAmbulance}/>
         <Testimonials data={ContentTestimonials}/>
-        <Partners data={ContentPartners}/>
+        <Partners data={ContentPartners} />
         <AreasDeliver data={ContentAreasDeliver}/>
     </div>
   )

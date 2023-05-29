@@ -1,0 +1,139 @@
+.OurServices {
+  background-color: #0072c6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.OurServices_heading {
+  padding-top: 40px;
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+.OurServices_details {
+  /* text-align: center; */
+  color: #dfdddd;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 26px;
+  margin-left: 120px;
+  margin-top: 15px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.OurServices_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.OurServices_card {
+  flex-basis: auto; /* For large screens, display 6 cards in a row */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+  opacity: 1;
+  background-color: #fff;
+}
+.OurServices-card-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px 10px 15px;
+}
+.OurServices_image {
+  object-fit: contain;
+  max-width: 150px;
+  max-height: 150px;
+}
+.OurServices-card-heading {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.OurServices_card:hover {
+  border: 0.1px thick #5f8d6b;
+  /* box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.01); */
+  z-index: 2;
+  background-color: #34a853;
+  color: #fff;
+  transform: scale(1.04);
+  transition-duration: 5000ms;
+}
+
+/* Medium screens */
+@media (max-width: 1200px) {
+  .OurServices_card {
+    /* flex-basis: calc(33.33% - 20px); For medium screens, display 3 cards in a row */
+    min-width: 30%;
+  }
+  .OurServices_image {
+    object-fit: contain;
+    max-width: 190px;
+    max-height: 190px;
+  }
+}
+@media (max-width: 820px) {
+  .OurServices_details {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 568px) {
+  .OurServices_details {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .OurServices_card {
+    flex-basis: calc(50% - 20px);
+  }
+  .OurServices_cards {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+  .OurServices_image {
+    object-fit: contain;
+    max-height: 120px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 440px) {
+  .OurServices_card {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .OurServices_cards {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .OurServices_image {
+    object-fit: contain;
+    max-height: 160px;
+    max-width: 160px;
+  }
+  .OurServices-card-heading {
+    font-size: 20px;
+  }
+}

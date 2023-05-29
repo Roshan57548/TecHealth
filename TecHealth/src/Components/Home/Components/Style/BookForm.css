@@ -1,0 +1,168 @@
+.bookForm-1 {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.bookForm-heading {
+  color: black;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.bookForm-heading-span {
+  color: #0072c6;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.bookForm-para {
+  color: #52575e;
+}
+
+.bookForm-0 {
+  padding: 30px 20px 0;
+  margin-bottom: 60px;
+}
+
+.bookForm-2 {
+  gap: 30px;
+}
+
+.bookForm-4 {
+  width: 48%;
+  height: 100%;
+}
+
+.bookForm-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.bookForm-3 {
+  width: 52%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bookForm-btns {
+  width: 100%;
+  position: relative;
+}
+.bookForm-btns-1 {
+  width: 100%;
+}
+
+.bookForm-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 10px 5px;
+  border-radius: 25px;
+  background-color: #34a853;
+  color: white;
+  transition: 0.3s all;
+  
+}
+
+.bookForm-btn:hover {
+  background-color: #0072c6;
+  transition-duration: 300ms;
+  
+}
+
+.bookForm-btn-1 {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 10px 5px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  margin-left: 60px;
+  transition: 0.3s all;
+}
+.bookform-center {
+  display: flex;
+  justify-content: center;
+}
+.bookForm-btn-1:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
+
+@media screen and (max-width: 991px) {
+  .bookForm-heading {
+    font-size: 38px;
+    margin-bottom: 1rem;
+  }
+  .bookForm-btns-1 {
+    margin-left: 0px;
+  }
+  .bookForm-4 img {
+    width: 110%;
+    height: 300px;
+  }
+  .bookForm-btn-1 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bookForm-2 {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .bookForm-4 {
+    width: 80%;
+    height: auto;
+  }
+
+  .bookForm-3 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .bookForm-para {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .bookForm-2 {
+    flex-direction: column;
+  }
+
+  .bookForm-heading {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .bookForm-heading-span {
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .bookForm-para {
+    font-size: 1rem;
+  }
+  .bookForm-4 {
+    width: 100%;
+    padding: 2rem;
+  }
+  .bookForm-btn-1 {
+    margin-left: 0px;
+  }
+  .bookForm-btns {
+    left: 0px;
+  }
+  .bookForm-4 img {
+    width: 110%;
+    height: 300px;
+  }
+}

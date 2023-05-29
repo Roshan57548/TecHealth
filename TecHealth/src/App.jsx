@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import Header from './Components/Header/Header2';
 import Footer from './Components/Footer/Footer';
 import Home from "./Components/Home/Home";
+import About from './Components/AboutUs/AboutUs';
 import "./App.css";
 
 function App() {
@@ -16,7 +17,10 @@ function App() {
 
   return <div className="App">
     <Header />
-    <Home />
+    <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/About-Us' element={<About/>}/>
+    </Routes>
     <Footer />
   </div>;
 }

@@ -1,0 +1,74 @@
+.Partners_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.Partners_Heading{
+    font-size: 38px;
+    color: #0072c6;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.Partners_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.Partners_Btn{
+    width: 220px;
+    padding: 7px 0 7px 0;
+    border-radius: 7px;
+}
+.Partners_MobileNo_Btn{
+    color:#0072c6 ;
+    border:1.5px solid #0072c6 ;
+    background-color: white;
+}
+.Partners_MobileNo_Btn:hover{
+    color: #34a853;
+    border: 2px solid #34a853;
+    transform: scale(1.03);
+    transition: .5s;
+}
+.Partners_BookNow_Btn{
+    color: white;
+    background-color: #34a853;
+    border: none;
+}
+.Partners_buttons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Partners_Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.Partners_Logo_Images{
+    width: 155px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:896px) {
+    .Partners_buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 38px;
+        flex-direction: column;
+    }    
+    .Partners_MobileNo_Btn:hover{
+    background-color:#34a853 ;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+}
