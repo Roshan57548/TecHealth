@@ -1,0 +1,80 @@
+.need_Ambulance-0 {
+  /* background-color: #0072c6; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 29%, rgba(0,212,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  color: #fff;
+  padding: 0 200px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.need_Ambulance-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.need_Ambulance-para {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.need_Ambulance-center {
+  display: flex;
+  justify-content: center;
+}
+
+.need_Ambulance-btns {
+  width: 100%;
+  position: relative;
+}
+
+.need_Ambulance-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 10px 5px;
+  border-radius: 25px;
+  background-color: #34a853;
+  color: white;
+  transition: 0.3s all;
+}
+
+.need_Ambulance-btn:hover {
+  background-color: white;
+  transition-duration: 300ms;
+  color: #0072c6;
+  letter-spacing: 0.3rem;
+}
+
+@media screen and (max-width: 990px) {
+  .need_Ambulance-0 {
+    padding: 0 50px;
+  }
+  .need_Ambulance-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .need_Ambulance-0 {
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+  .need_Ambulance-heading {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}

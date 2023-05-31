@@ -95,6 +95,7 @@
 .bookForm-btn-1:hover {
   transform: scale(1.1);
   transition-duration: 300ms;
+  
 }
 
 @media screen and (max-width: 991px) {
