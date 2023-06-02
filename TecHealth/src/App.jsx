@@ -6,7 +6,9 @@ import Header from './Components/Header/Header2';
 import Footer from './Components/Footer/Footer';
 import Home from "./Components/Home/Home";
 import About from './Components/AboutUs/AboutUs';
+import ContactUs from "./Components/ContactUs/ContactUs";
 import "./App.css";
+
 
 function App() {
   const { pathname } = useLocation();
@@ -20,6 +22,7 @@ function App() {
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/About-Us' element={<About/>}/>
+        <Route path='/Contact-Us' element={<ContactUs/>}/>
     </Routes>
     <Footer />
   </div>;
