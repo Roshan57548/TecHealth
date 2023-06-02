@@ -1,7 +1,7 @@
 const ChooseUs = {
     Heading: "Why Choose Us?",
     Paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis aperiam vitae similique distinctio libero, quibusdam consequuntur eum vero pariatur error delectus id iure placeat? Tempora earum incidunt quam ratione at cumque reprehenderit consectetur quaerat amet praesentium repellat, placeat libero porro sit et. Praesentium, culpa? Officia explicabo delectus nostrum soluta!",
+      "Experience seamless patient transport with TecHealth, serving over 10,000 satisfied customers and completing 20,000 successful rides. Our innovative service model prioritizes dedicated care on wheels, revolutionizing your experience with ambulance services. Simplify your journey from point A to point B with TecHealth.",
   
     SubHeading: [
       {

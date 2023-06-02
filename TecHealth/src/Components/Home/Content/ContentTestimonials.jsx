@@ -2,7 +2,7 @@ const ContentTestimonials = {
     Heading: "Happy Customers",
     Testimonial1: {
       Sub_Heading1:
-        "The driver showed concern by waiting after the drop, to make sure the patient's home oxygen concentrator was working properly. The entire crew was very helpful. I would strongly recommend Medulance to all corporates.",
+        "The driver showed concern by waiting after the drop, to make sure the patient's home oxygen concentrator was working properly. The entire crew was very helpful. I would strongly recommend TecHealth to all corporates.",
       Paragraph1: "- Greenidge Fernandes, Delhi",
     },
     Testimonial2: {

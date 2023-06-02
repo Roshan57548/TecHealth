@@ -3,12 +3,12 @@ const AboutUsTecHealth = {
     button1: "Home",
     button2: "About Us",
     heading_part1: "What is ",
-    heading_part2: "Medulance",
+    heading_part2: "TecHealth",
     paragraph1:
-      "India's first, GPS based technology platform for fast and reliable first point medical attention. With an increasing emphasis on promoting independent living today, having access to the nearest ambulance to you can provide much needed peace of mind in a worst case scenario.",
+      "Discover India's pioneering GPS-based technology platform for rapid and dependable first point medical attention. As the emphasis on independent living grows, having immediate access to the nearest ambulance becomes crucial for peace of mind during worst-case scenarios. Our innovative solution ensures fast and reliable medical assistance, powered by state-of-the-art GPS technology. Experience the convenience of summoning the closest ambulance with just a few clicks, ensuring timely interventions when it matters most.",
     subheading: "Histroy / Idea",
     paragraph2:
-      "Emergency response is the most critical to the lifeline of any country. Medulance wants to inspire breakthroughs in the way India looks at ambulances and first-point medical attention and to touch lives. Medulance was started in the year 2017 to make finding an ambulance as easy as finding food or taxis these days to assist lives. Medulance is an integrated emergency response support provider, ambulance booking and tracking system designed to provide first-point medical attention.",
+      "At TecHealth, we understand the vital importance of emergency response in safeguarding lives. Our mission is to revolutionize India's perception of ambulances and first-point medical attention, making a lasting impact. Established in 2020, TecHealth aims to simplify the process of locating an ambulance, just like finding food or booking taxis. With Medulance, our comprehensive emergency response support system, you can easily book and track ambulances, ensuring timely and efficient first-point medical attention. Trust TecHealth to provide the critical support you need in emergency situations.",
   };
   
   export default AboutUsTecHealth;

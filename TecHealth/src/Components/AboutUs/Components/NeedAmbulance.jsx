@@ -4,7 +4,7 @@ import "./Style/NeedAmbulance.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const NeedAmbulance = (props) => {
   return (
-    <div className="need_Ambulance-0">
+    <div className="need_Ambulances-0">
       <div>
         <h1 className="need_Ambulance-heading">{props.data.heading}</h1>
       </div>

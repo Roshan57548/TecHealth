@@ -1,7 +1,12 @@
-.need_Ambulance-0 {
+.need_Ambulances-0 {
   /* background-color: #0072c6; */
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 29%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 114, 198, 1) 29%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +16,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 29%, rgb
   color: #fff;
   padding: 0 200px;
   box-sizing: border-box;
-  margin-bottom: 30px;
 }
 
 .need_Ambulance-heading {
@@ -56,7 +60,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 29%, rgb
 }
 
 @media screen and (max-width: 990px) {
-  .need_Ambulance-0 {
+  .need_Ambulances-0 {
     padding: 0 50px;
   }
   .need_Ambulance-heading {
@@ -67,7 +71,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 29%, rgb
 }
 
 @media screen and (max-width: 500px) {
-  .need_Ambulance-0 {
+  .need_Ambulances-0 {
     height: 500px;
     padding: 10px;
     padding-bottom: 50px;

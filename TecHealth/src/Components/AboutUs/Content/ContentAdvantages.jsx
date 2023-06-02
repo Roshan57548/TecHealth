@@ -3,9 +3,9 @@ import image1 from '../Images/advantage_image1.png'
 import image2 from '../Images/advantage_image2.png'
 import image3 from '../Images/advantage_image3.png'
 const Advantages = {
-    Heading: "GOAID ADVANATAGE",
-    SubHeading1:"Goaid is india's leading company in providing trustworthy Ambulance services.",
-    SubHeading2:"We are now available in top 18+ cities of India, Delhi, Pune, Jaipur, Ahemdabad, Bhopal, Lukhnow & Mumbai. Know moreabout service you can visit on website.",
+    Heading: "TECHEALTH ADVANATAGE",
+    SubHeading1:"TecHealth is india's leading company in providing trustworthy ambulance services.",
+    SubHeading2:"Exciting news! We have expanded our services to Delhi, India. To learn more about our offerings, visit our website.",
 
     Cards:[
         {

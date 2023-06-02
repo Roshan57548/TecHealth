@@ -4,7 +4,7 @@ const Service = {
     
     Heading1: "India's Beloved On ",
     Heading2: "App Ambulance Service",
-    subHeading:"GoAid #हर पल आपके साथ...",
+    subHeading:"TecHealth #एम्बुलेंस सेवा...",
     image : img, 
 };
   

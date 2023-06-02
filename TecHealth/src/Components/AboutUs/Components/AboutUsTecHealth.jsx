@@ -16,8 +16,8 @@ const AboutUsTecHealth = (props) => {
           </span>
           <span> / </span>
           <span
-            class="AboutUsTecHealth_active"
-            onClick={() => navigate("/About-Us")}
+            class="AboutUsTecHealth_actives"
+            
           >
             {props.data.button2}
           </span>
