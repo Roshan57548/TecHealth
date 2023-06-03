@@ -101,7 +101,7 @@ const Forms = (props) => {
                   autoComplete='off'
                   placeholder='Full Name'
                   className='form_input'
-                  required
+                  // required
                 />
                  {user.touched.fullname && user.errors.fullname && (
                     <p className="error-part">{user.errors.fullname}</p>
@@ -118,7 +118,7 @@ const Forms = (props) => {
                   autoComplete='off'
                   placeholder='Email Address'
                   className='form_input'
-                  required
+                  // required
                 />
                  {user.touched.email && user.errors.email && (
                     <p className="error-part">{user.errors.email}</p>
@@ -135,7 +135,7 @@ const Forms = (props) => {
                   placeholder='Phone Number'
                   className='form_input'
                   autoComplete='off'
-                  required
+                  // required
                 />
                  {user.touched.Phone && user.errors.Phone && (
                     <p className="error-part">{user.errors.Phone}</p>
@@ -150,7 +150,7 @@ const Forms = (props) => {
                   value={user.values.carddetails}
                   onChange={user.handleChange}
                   placeholder='Your Message...'
-                  required
+                  // required
                   autoComplete='off'
                 ></textarea>
               </div>
