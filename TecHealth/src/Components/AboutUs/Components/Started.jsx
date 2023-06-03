@@ -11,7 +11,7 @@ const Started = (props) => {
             </div>
             <div className='col-6 started_contents'>
             <div className='started_content'>
-               <div className='started_text_h'>{props.data.Heading}</div>
+               <div className='started_text_h'>{props.data.Heading} <span className='started_text_h-1'>{props.data.Heading1}</span></div>
                <div className='started_para1'>{props.data.Details1}</div>
                <div className='started_para1'>{props.data.Details2}</div>
                <div className='started_para1'>{props.data.Details3}</div>

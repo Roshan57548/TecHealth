@@ -6,7 +6,8 @@
 .Features_heading_contents_head {
   font-size: 30px;
   line-height: 1.5;
-  color: hsl(0, 0%, 0%);
+  /* color: hsl(0, 0%, 0%); */
+  color: #fff;
   font-family: Poppins, sans-serif;
   text-align: left;
   font-weight: bold;
@@ -16,21 +17,25 @@
   font-size: 16px;
   line-height: 1.75;
   font-family: Roboto, sans-serif;
-  color: #707079;
+  /* color: #707079; */
+  color: #fff;
 }
 .Features_heading_contents_subhead2 {
   margin-top: auto;
   font-size: 16px;
   line-height: 1.75;
   font-family: Roboto, sans-serif;
-  color: #707079;
+  /* color: #707079; */
+  color: #fff;
 }
 .Features_mainDiv {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff6f9;
+  /* background-color: #fff6f9; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,114,198,1) 21%, rgba(0,212,255,1) 100%);
   padding-bottom: 60px;
   /* backgorudncolor: #FFF6F9; */
 }

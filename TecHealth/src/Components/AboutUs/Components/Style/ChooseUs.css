@@ -30,8 +30,8 @@
 .aboutus-chooseus_header__container h1 {
     font-weight: 600;
     font-size: clamp(28px, 2vw, 48px);
+    
 }
-
 
 .aboutus-choose-us__logo_container {
     display: flex;

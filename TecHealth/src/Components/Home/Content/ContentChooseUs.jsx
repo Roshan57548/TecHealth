@@ -1,5 +1,6 @@
 const ContentChooseUs = {
-    Heading: "Why Choose Us?",
+    Heading: "Why ",
+    Heading1:"Choose Us?",
   
     SubHeading: [
       {

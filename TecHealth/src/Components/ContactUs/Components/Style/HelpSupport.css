@@ -1,0 +1,77 @@
+.HelpSupport_div {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .HelpSupport_inner_div {
+    width: 70%;
+  }
+  .HelpSupport_heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom: 20px;
+    color: #34a853;
+  }
+  .HelpSupport_span {
+    color: #0072c6;
+  }
+  .HelpSupport_paragraph {
+    text-align: center;
+    font-size: 18px;
+  }
+  .HelpSupport_parent_div {
+    display: flex;
+  }
+  .HelpSupport_child_div1 {
+    display: inline-block;
+    width: 25%;
+    padding: 20px 0px;
+  }
+  .HelpSupport_child_div2 {
+    display: inline-block;
+    width: 50%;
+    padding: 20px 0px;
+  }
+  .HelpSupport_middle_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .HelpSupport_inner_child1 {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+  }
+  .HelpSupport_inner_child2 {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+  }
+  .HelpSupport_address {
+    padding-left: 40px;
+  }
+  .HelpSupport_color {
+    color: #34a853;
+  }
+  .HelpSupport_icon {
+    color: #0072c6;
+  }
+  @media screen and (max-width: 900px) {
+    .HelpSupport_parent_div {
+      display: block;
+    }
+    .HelpSupport_child_div1 {
+      display: block;
+      width: 100%;
+    }
+    .HelpSupport_child_div2 {
+      display: block;
+      width: 100%;
+    }
+    .HelpSupport_middle_div {
+      justify-content: start;
+      width: 100%;
+    }
+  }
+  

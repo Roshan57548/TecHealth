@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    --primary-color: #0073c6;
+    --secondary-color: #34a853;
+    --black: #000000;
+    --white: #fff;
+}
+
+.form-main__container {
+    text-align: center;
+    width: 100%;
+    margin-block: 2.5rem;
+    margin-inline: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "Poppins", sans-serif;
+    padding-block: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* background-color: rgba(36, 36, 177, 0.887); */
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 114, 198, 1) 29%, rgb(10, 64, 1) 100%);
+}
+
+.form_left {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+
+.form_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_wrapper {
+    max-width: 80%;
+    margin: auto;
+
+}
+.error-part{
+    color: white;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.form_input {
+    text-align: justify;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    margin: 0 0 10px;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: var(--black);
+    overflow: hidden;
+}
+
+.form_input:focus {
+    outline-offset: -3px;
+    outline: 5px solid var(--secondary-color);
+    transition: 0.3s all;
+}
+
+.form_wrapper textarea {
+    height: 75px;
+    padding-top: 10px;
+}
+
+.form_button {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: 50px;
+    border: 0;
+    background: linear-gradient(90deg, rgb(16, 160, 66) 0%, rgb(27, 126, 38) 29%, rgb(19, 74, 9) 100%);
+    color: var(--white);
+    margin: auto;
+    letter-spacing: 0.0625rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: 0.3s all;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form_button:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    letter-spacing: 0.325rem;
+
+}

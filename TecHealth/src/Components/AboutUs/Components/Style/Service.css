@@ -18,7 +18,10 @@
 }
 .service-heading {
   font-size: 40px;
-  color: black;
+  /* color: black; */
+  color: #34a853;
+  
+  
 }
 .service-heading-span {
   color: #0072c6;

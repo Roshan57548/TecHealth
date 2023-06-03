@@ -8,14 +8,18 @@
   margin-bottom: 2rem;
 }
 
-.make-us-heading {
+.make-us-heading1 {
   font-size: 2.1rem;
   color: #0072c6;
   font-weight: 600;
   margin-bottom: 1rem;
   
 }
-
+.make-us-heading2{
+  color: #34a853;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
 .make-us-para-1 {
   padding: 0 7rem;
 }

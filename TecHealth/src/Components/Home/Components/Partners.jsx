@@ -3,7 +3,7 @@ import "./Style/Partners.css";
 const Partners = (props) => {
   return (
     <div className="Partners_Container">
-      <div className="Partners_Heading">{props.data.Heading}</div>
+      <div className="Partners_Heading">{props.data.Heading1} <span className="Partners_Heading-1">{props.data.Heading2}</span></div>
       <div className="Partners_Logo">
         {props.data.Images.map((img, ind) => {
           return (

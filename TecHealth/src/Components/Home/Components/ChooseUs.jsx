@@ -8,7 +8,7 @@ import logo from "../Images/logo.png";
 const ChooseUs = (props) => {
   return (
     <div className='choose-us__main_container container'>
-      <h1 style={{ textAlign: "center," }}>{props.data.Heading}</h1>
+      <h1 style={{ textAlign: "center," }}>{props.data.Heading} <span className="contactus-heading-1">{props.data.Heading1}</span></h1>
       <div className='row'>
         <div className='choose-us__logo_container col-lg-12 col-sm-12'>
           <div className='logo-container__items'>

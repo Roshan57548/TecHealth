@@ -11,7 +11,8 @@
 }
 
 .bookForm-heading {
-  color: black;
+  /* color: black; */
+  color: #34a853;
   font-size: 50px;
   letter-spacing: 1px;
 }

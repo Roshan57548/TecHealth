@@ -19,7 +19,7 @@ const ChooseUs = (props) => {
   return (
     <div className='aboutus-chooseus_main__container'>
       <div className='aboutus-chooseus_header__container'>
-        <h1>{props.data.Heading}</h1>
+        <h1>{props.data.Heading} </h1>
         <p>{props.data.Paragraph}</p>
       </div>
       <div className='aboutus-choose-us__logo_container'>

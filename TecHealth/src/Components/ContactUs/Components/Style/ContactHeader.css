@@ -1,0 +1,42 @@
+.ContactHeader_Main_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ContactHeader_Sub_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    margin: 10px;
+}
+.ContactHeader_active{
+    color: #34a853;
+    cursor: pointer;
+}
+.ContactHeader_active:hover{
+    color:#0072c6 ;
+}
+.ContactHeader_AboutUs{
+    color: rgb(173, 173, 173);;
+}
+.ContactHeader_Paragraph1_Span_Tag{
+    color: #0072c6;
+    border-bottom: 1px solid #0072c6;
+}
+.ContactHeader_Paragraph1{
+   text-align: center;
+   font-size: 2.125rem;
+   font-weight: 700;
+   color: #000;
+   margin: 1rem 1rem; 
+   padding: 0 1rem;
+}
+
+.ContactHeader_Paragraph2{
+    color: rgb(173, 173, 173);
+    font-size: 19px;
+    text-align: center;
+}
