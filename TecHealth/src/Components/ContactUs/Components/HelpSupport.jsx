@@ -11,7 +11,7 @@ const HelpSupport = (props) => {
           {props.data.help}
           <span className="HelpSupport_span"> {props.data.and} </span>
           {props.data.support}
-        </h3>
+        </h3> 
         <p className="HelpSupport_paragraph">{props.data.paragraph}</p>
         <div className="HelpSupport_parent_div">
           <div className="HelpSupport_child_div1">

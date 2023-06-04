@@ -21,7 +21,7 @@
     margin-bottom: 0;
     /* background-color: rgba(36, 36, 177, 0.887); */
     /* background-color: var(--primary-color); */
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 114, 198, 1) 29%, rgb(10, 64, 1) 100%);
+    background: linear-gradient(235deg, #34a853, #0072c6);
 }
 
 .form_left {
@@ -48,6 +48,7 @@
 
 }
 .error-part{
+    display: flex;
     color: white;
     font-size: 10px;
     margin-top: 2px;

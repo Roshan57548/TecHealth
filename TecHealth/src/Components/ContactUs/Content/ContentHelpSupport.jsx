@@ -10,7 +10,7 @@ const ContentHelpSupport = {
     address:
       "91, Parvati Marg, Hanuman Nagar Extension, Paschim Vihar, Vaishali Nagar, Jaipur, Rajasthan 302021",
     emailus: "Email Us",
-    email: "info@goaid.in",
+    email: "support@gmail.com",
   };
   
   export default ContentHelpSupport;

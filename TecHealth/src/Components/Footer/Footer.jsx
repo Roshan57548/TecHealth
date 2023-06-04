@@ -163,7 +163,7 @@ const Footer = () => {
 
       <div
         className="text-center p-4"
-        style={{ backgroundColor: "#34a853", color: "white" }}
+        style={{ background: "linear-gradient(235deg, #34a853, #0072c6)", color: "white" }}
       >
         © 2023 <strong>TecHealth</strong> : Developed by&nbsp;
         <a
