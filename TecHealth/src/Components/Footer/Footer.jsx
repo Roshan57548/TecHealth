@@ -118,7 +118,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  onClick={() => navigate("/Terms&Conditions")}
+                  onClick={() => navigate("/Terms-&-Conditions")}
                   className="Footer-Color"
                   id="footer-link"
                 >

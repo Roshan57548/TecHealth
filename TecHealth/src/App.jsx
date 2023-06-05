@@ -8,6 +8,8 @@ import Home from "./Components/Home/Home";
 import About from './Components/AboutUs/AboutUs';
 import ContactUs from "./Components/ContactUs/ContactUs";
 import "./App.css";
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermsConditions from "./Components/Terms&Conditions/TermsConditions";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/About-Us' element={<About/>}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
+        <Route path='/Privacy-Policy' element={<PrivacyPolicy/>}/>
+        <Route path='/Terms-&-Conditions' element={<TermsConditions/>}/>
     </Routes>
     <Footer />
   </div>;

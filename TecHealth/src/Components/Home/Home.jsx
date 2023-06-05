@@ -29,7 +29,7 @@ const Home = () => {
         <NeedAmbulance data={ContentNeedAmbulance}/>
         <Testimonials data={ContentTestimonials}/>
         <Partners data={ContentPartners} />
-        <AreasDeliver data={ContentAreasDeliver}/>
+        <AreasDeliver data={ContentAreasDeliver}/> 
     </div>
   )
 }
