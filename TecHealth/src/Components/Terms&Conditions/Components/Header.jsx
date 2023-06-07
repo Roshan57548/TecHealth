@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import "./Style/Header.css";
 
@@ -21,3 +22,16 @@ const Header = (props) => {
 }
 
 export default Header
+=======
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div>
+      Header
+    </div>
+  )
+}
+
+export default Header
+>>>>>>> 21165d5cbb2799ad2b0f585874d7189c31c2b28a
