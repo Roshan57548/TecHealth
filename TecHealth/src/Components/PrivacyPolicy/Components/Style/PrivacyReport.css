@@ -1,0 +1,36 @@
+.privacy-report{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap:2rem;
+    margin-block: 30px;
+    
+}
+
+.privacy-report-heading{
+    font-size: 2rem;
+    color: #0072c6;
+    font-weight: bold;
+}
+
+.privacy-report-1{
+    width: 50%;
+}
+.privacy-report-2{
+    width: 50%;
+}
+
+@media screen and (max-width: 900px){
+   .privacy-report{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   }
+   .privacy-report-1,.privacy-report-2{
+    width: 90%;
+   }
+  
+   
+}

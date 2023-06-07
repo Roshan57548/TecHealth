@@ -1,9 +1,12 @@
 import React from 'react'
 import './Style/Report.css'
-const Report = () => {
+const Report = (props) => {
   return (
-    <div>
-      Report
+    <div className='report'>
+      <h1 className='report-heading'>
+        {props.data.Heading}
+      </h1>
+      <p className='report-para'>{props.data.para}</p>
     </div>
   )
 }

@@ -1,0 +1,16 @@
+.report {
+  width: 80%;
+  margin: auto;
+  margin-block: 30px;
+}
+.report-heading {
+  font-size: 2rem;
+  color: #0072c6;
+  font-weight: bold;
+}
+
+.report-para {
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 4px solid #34a853;
+}

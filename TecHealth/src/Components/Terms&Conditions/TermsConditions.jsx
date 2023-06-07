@@ -12,7 +12,7 @@ const TermsConditions = () => {
   return (
     <div className='TermsConditions'>
         <Header data={ContentHeader} />
-        <Report />
+        <Report data={ContentReport}/>
         <MapData data={ContentMapData}/>
         <Information/>
     </div>
