@@ -2,13 +2,13 @@
     width: 80%;
     margin: auto;
     display: flex;
-    gap:2rem;
+    gap:3rem;
     margin-block: 30px;
     
 }
 
 .privacy-report-heading{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #0072c6;
     font-weight: bold;
 }
@@ -31,6 +31,21 @@
    .privacy-report-1,.privacy-report-2{
     width: 90%;
    }
-  
+   .privacy-report{
+    width: 100%;
+    
+   }
+   .privacy-report-heading{
+    font-size: 27px;
+    
+}
    
+}
+
+
+@media screen and (max-width: 500px){
+    .privacy-report{
+       padding: 0 1.5rem;
+        
+       }
 }

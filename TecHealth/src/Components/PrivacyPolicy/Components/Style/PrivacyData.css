@@ -3,7 +3,7 @@
 
 .privacy_data--container {
     font-family: 'Poppins', sans-serif;
-    margin-block: 2.5rem;
+    /* margin-block: 2rem; */
     margin-inline: 5rem;
     overflow: hidden;
     padding-inline: 2rem;
@@ -23,7 +23,7 @@
 
 .privacy_title {
     color: #0072c6;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
