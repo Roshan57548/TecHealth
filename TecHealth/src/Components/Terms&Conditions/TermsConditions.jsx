@@ -14,7 +14,7 @@ const TermsConditions = () => {
         <Header data={ContentHeader} />
         <Report data={ContentReport}/>
         <MapData data={ContentMapData}/>
-        <Information/>
+        <Information data={ContentInformation}/>
     </div>
   )
 }

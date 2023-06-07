@@ -1,0 +1,46 @@
+.Information_outer_div {
+    padding: 30p 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .Information_inner_div {
+    width: 80%;
+  }
+  .Information_heading {
+    color: #0072c6;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 20px 0px;
+  }
+  .Information_ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Information_outer_li {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .Information_span {
+    font-weight: bold;
+    color: #34a853;
+    font-size: 20px;
+    padding-right: 30px;
+  }
+  .Information_li {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 900px) {
+    .Information_inner_div {
+      width: 90%;
+     
+    }
+    .Information_span {
+      font-size: 18px;
+    }
+    .Information_heading {
+      font-size: 27px;
+      padding-left:20px ;
+    }
+  }
+  
