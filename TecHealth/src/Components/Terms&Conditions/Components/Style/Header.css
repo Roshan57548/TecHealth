@@ -1,0 +1,35 @@
+.T_and_C_Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color:rgb(242, 240, 240) ;
+    flex-direction: column;
+    width: 100%;
+}
+.T_and_C_Header_Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.T_and_C_Header_Content h3{
+    font-weight:bold ;
+    display: flex;
+    gap: 10px;
+}
+.T_and_C_Header_Condition_Span{
+    color: #0073c6;
+    border-bottom: 1.4px solid #0073c6;
+}
+.T_and_C_Header_Terms_Span{
+    color: #34a853;
+}
+
+/* Responsive */
+@media only screen and (max-width:1100px)  {
+    .T_and_C_Header_Content{
+        margin: 0 34px;
+    }
+}

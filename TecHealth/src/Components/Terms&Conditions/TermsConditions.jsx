@@ -11,7 +11,7 @@ import ContentInformation from './Content/ContentInformation';
 const TermsConditions = () => {
   return (
     <div className='TermsConditions'>
-        <Header/>
+        <Header data={ContentHeader} />
         <Report />
         <MapData/>
         <Information/>

@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
   return (
     <div className='PrivacyPolicy'>
         {/* PrivacyPolicy */}
-        <PrivacyHeader/>
+        <PrivacyHeader data={ContentPrivacyHeader} />
         <PrivacyReport/>
         <PrivacyData/>
 
