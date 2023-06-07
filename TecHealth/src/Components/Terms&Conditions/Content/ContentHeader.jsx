@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 const ContentHeader = {
   heading_Data_One: "Terms",
@@ -9,11 +8,3 @@ const ContentHeader = {
 };
 
 export default ContentHeader
-=======
-
-const ContentHeader = {
- 
-}
-
-export default ContentHeader
->>>>>>> 21165d5cbb2799ad2b0f585874d7189c31c2b28a
