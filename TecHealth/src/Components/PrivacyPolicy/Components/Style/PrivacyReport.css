@@ -1,5 +1,5 @@
 .privacy-report{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     gap:3rem;
@@ -17,6 +17,7 @@
     width: 50%;
 }
 .privacy-report-2{
+    text-align: justify;
     width: 50%;
 }
 

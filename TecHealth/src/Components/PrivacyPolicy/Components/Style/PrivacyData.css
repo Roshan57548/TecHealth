@@ -1,58 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-
 .privacy_data--container {
-    font-family: 'Poppins', sans-serif;
-    /* margin-block: 2rem; */
-    margin-inline: 5rem;
-    overflow: hidden;
-    padding-inline: 2rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .privacy_data {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .privacy_item {
-    flex-basis: 50%;
-    margin-bottom: 2rem;
-    padding: 1rem;
+  flex-basis: 50%;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .privacy_title {
-    color: #0072c6;
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+  color: #0072c6;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .privacy_paragraph {
-    line-height: 1.8;
-    max-width: 90%;
+    text-align: justify;
+  line-height: 1.8;
+  max-width: 90%;
 }
 
 /* media queries */
 
-@media (max-width: 968px) {
-    .privacy_data--container {
-        margin-inline: auto;
-    }
-
-    .privacy_paragraph {
-        max-width: 100%;
-    }
+@media (max-width: 900px) {
+  .privacy_paragraph {
+    max-width: 100%;
+  }
+  .privacy_data {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .privacy_data--container {
+    padding: 0 1.5rem;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .privacy_item {
+    flex-basis: 100%;
+    padding: 0rem;
+  }
 
-    .privacy_item {
-        flex-basis: 100%;
-        padding: 0rem;
-    }
-
-    .privacy_title {
-        font-size: 27px;
-    }
+  .privacy_title {
+    font-size: 27px;
+  }
 }

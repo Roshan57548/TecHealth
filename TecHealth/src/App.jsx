@@ -10,6 +10,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import "./App.css";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsConditions from "./Components/Terms&Conditions/TermsConditions";
+import Blog from "./Components/Blog/Blog";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/About-Us' element={<About/>}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
         <Route path='/Privacy-Policy' element={<PrivacyPolicy/>}/>
         <Route path='/Terms-&-Conditions' element={<TermsConditions/>}/>
     </Routes>
