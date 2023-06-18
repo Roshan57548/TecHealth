@@ -24,6 +24,13 @@ const BlogCard = (props) => {
     setCurrentPage(page);
   };
 
+  const handlenavigate = () => {
+    window.scrollTo(0, 0);
+  };
+
+  
+
+
   //pagination responsive
   const matches = useMediaQuery("(max-width:600px)");
 
@@ -71,6 +78,7 @@ const BlogCard = (props) => {
           size={matches ? "small" : "large"}
           page={currentPage}
           onChange={handlePageChange}
+          onClick={handlenavigate}
         />
       </Stack>
     </>
