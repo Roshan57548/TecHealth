@@ -1,0 +1,36 @@
+.Blog_0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color:rgb(242, 240, 240) ;
+    flex-direction: column;
+    margin-top: 0;
+    width: 100%;
+}
+.Blog_Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Blog_Content h3{
+    font-weight:bold ;
+    display: flex;
+    gap: 10px;
+}
+.Blog_Heading1_Span{
+    color: #34a853;
+}
+.Blog_Heading2_Span{
+    color: #0073c6;
+    border-bottom: 1.4px solid #0073c6;
+}
+
+/* Responsive */
+@media only screen and (max-width:1100px)  {
+    .Blog_Content{
+        margin: 0 34px;
+    }
+}

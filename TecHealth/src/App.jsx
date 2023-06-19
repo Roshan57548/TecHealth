@@ -11,6 +11,7 @@ import "./App.css";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsConditions from "./Components/Terms&Conditions/TermsConditions";
 import Blog from "./Components/Blog/Blog";
+import News from './Components/News/News';
 import BlogDetail from "./Components/BlogDetails/BlogDetail";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/About-Us' element={<About/>}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
         <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/News' element={<News/>}/>
         <Route path='/Blog/Blog-Detail/:id' element={<BlogDetail/>}/>
         <Route path='/Privacy-Policy' element={<PrivacyPolicy/>}/>
         <Route path='/Terms-&-Conditions' element={<TermsConditions/>}/>

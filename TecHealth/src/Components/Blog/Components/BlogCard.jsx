@@ -1,15 +1,15 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import "./Style/BlogCard.css";
 import { useMediaQuery, Stack, Pagination } from "@mui/material";
 import { KeyboardArrowRight } from "@mui/icons-material";
 import {useNavigate,useParams} from "react-router-dom"
+import axios from "axios";
 const BlogCard = (props) => {
+  
   const pageData = props.data.cards;
   const navigate=useNavigate();
 
-  // function navigateToBlogDetails(){
-  //   navigate(`/Blog/Blog-Detail/${card.id}`,{state:{image:card.image}});
-  // }
+  
 
   const [currentPage, setCurrentPage] = useState(1);
   const [recordsPerPage] = useState(6);
