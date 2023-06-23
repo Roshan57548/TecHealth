@@ -1,0 +1,49 @@
+.PopularServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.PopularServices_ContentContainer {
+    width: 80%;
+}
+
+.PupularService_CardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.PopularServices_MainHeading {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #34a853;
+    text-align: center;
+}
+
+.PopularServices_Card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.PopularServices_Image {
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+.PopularServices_SubHeading {
+    color: #0072c6;
+}
+
+.PopularServices_SubPara {
+    color: #34a853;
+}

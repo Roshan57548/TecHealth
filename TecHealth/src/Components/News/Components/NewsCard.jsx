@@ -1,57 +1,115 @@
-import axios from "axios";
-import Card from "react-bootstrap/Card";
-import { useState } from "react";
-import { useEffect } from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Col from "react-bootstrap/Col";
+import { React, useState, useEffect } from "react";
 import "./Style/NewsCard.css";
+import {
+  useMediaQuery,
+  Stack,
+  Pagination,
+  CircularProgress
+} from "@mui/material";
+import { KeyboardArrowRight } from "@mui/icons-material";
+import axios from "axios";
+
 const NewsCard = () => {
-  const [data, setData] = useState([]);
+  const [newsData, setNewsData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios
-      .get(
-        "https://newsdata.io/api/1/news?apikey=pub_24781300f8a86df7eb37002ee377ba098a91a&q=health&country=in&language=en&category=health "
-        )
-      .then((response) => {
-        console.log(response);
-        setData(response.data.results);
-      });
+    const fetchNewsData = async () => {
+      try {
+        const response = await axios.get(
+          "https://newsdata.io/api/1/news?apikey=pub_248930606c8a89a1aebea5656b3fcd96d298d&q=health&country=in&category=health"
+        );
+        setNewsData(response.data.results);
+        setLoading(false);
+      } catch (error) {
+        console.log("Error fetching news data:", error);
+        setLoading(true);
+      }
+    };
+
+    fetchNewsData();
   }, []);
-  let table;
-  if (data) {
-    table = data.map((value) => {
-      if (value.image_url) {
+
+  //pagination
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [recordsPerPage] = useState(6);
+
+  const indexOfLastRecord = currentPage * recordsPerPage;
+  const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
+  const numberOfPages = Math.ceil(newsData.length / recordsPerPage);
+  const currentRecords = newsData.slice(indexOfFirstRecord, indexOfLastRecord);
+
+  const handlePageChange = (event, page) => {
+    setCurrentPage(page);
+  };
+
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  //pagination responsive
+  const matches = useMediaQuery("(max-width:600px)");
+
+  //loading
+  let loadingCircle;
+
+  if (loading) {
+    loadingCircle = <CircularProgress className='loading-indicator' />;
+  } else {
+    const table = currentRecords.map((card, index) => {
+      if (card.image_url) {
         return (
-          <div className="col-lg-4 col-md-6 col-12 mt-5 mb-5">
-            <Card>
-              <Card.Img
-                className="news-3"
-                variant="top"
-                src={value.image_url}
-              />
-              <Card.Body>
-                <Card.Title>{value.title}</Card.Title>
-                <Card.Text>{value.description.slice(0, 150)}</Card.Text>
-              </Card.Body>
-            </Card>
+          <div className='newscard_container' key={index}>
+            <div className='newscard_image'>
+              <img src={card.image_url} alt={`image-${index}`} />
+            </div>
+            <div className='newscard_post--content'>
+              <div className='newscard_heading'>
+                <h3>{card.title}</h3>
+              </div>
+              <div className='newscard_details'>
+                <p>{card.description}</p>
+              </div>
+              <div className='newscard_footer'>
+                <div className='btn_readmore'>
+                  <button
+                    className='newscard_button'
+                    onClick={() => {
+                      window.open(card.link, "_blank");
+                    }}
+                  >
+                    Read More
+                    <span>
+                      <KeyboardArrowRight />
+                    </span>
+                  </button>
+                </div>
+                <div className='newscard_date'>{card.pubDate.slice(0, 11)}</div>
+              </div>
+            </div>
           </div>
         );
       }
     });
-  }
 
-  return (
-    <div className="news-1">
-      <div className="container">
-        <div className="row news-1-1">
-          <div className="col-12 news-8 row">{table}</div>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+      <>
+        <div className='newscard--parent'>{table}</div>
+        <Stack className='pagination'>
+          <Pagination
+            count={numberOfPages}
+            color='primary'
+            size={matches ? "small" : "large"}
+            page={currentPage}
+            onChange={handlePageChange}
+            onClick={handleScrollToTop}
+          />
+        </Stack>
+      </>
+    );
+  }
+  return <div className='loading--circle'>{loadingCircle}</div>;
 };
 
 export default NewsCard;
