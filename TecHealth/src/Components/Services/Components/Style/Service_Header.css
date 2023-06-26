@@ -1,0 +1,41 @@
+.ServiceHeader{
+    margin-top: 100px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(242, 240, 240) ;
+}
+.ServiceHeader_Content_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ServiceHeader_Heading_Home{
+    color: black;
+    cursor: pointer;
+}
+.ServiceHeader_Heading_Home:hover{
+    color: #34a853;
+}
+.ServiceHeader_Heading_Services{
+    color: rgb(173, 173, 173);
+}
+.ServiceHeader_Para1{
+    font-size: 31px;
+    font-weight: bold;
+    color: black;
+    padding: 0 3px 0 3px;
+    text-align: center;
+}
+.ServiceHeader_SubPara1{
+    color: #0072c6;
+    border-bottom: 1px solid #0072c6;
+}
+.ServiceHeader_Para2{
+    color: rgb(173, 173, 173);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.why-chooseus--main-container {
+    background: linear-gradient(235deg, #34a853, #0072c6);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-block: 2rem;
+    margin-inline: auto;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    margin-top: 2.5rem;
+}
+
+.why-chooseus--header {
+    text-align: center;
+    margin-inline: auto;
+    padding-block: 1rem;
+}
+
+.why-chooseus--header h1 {
+    font-weight: bold;
+    text-wrap: balance;
+
+}
+
+.why-chooseus--header p {
+    text-wrap: balance;
+    font-size: clamp(16px, 2vw, 18px);
+    padding-block: 0.5rem;
+    margin-inline: auto;
+}
+
+.why-chooseus--cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    gap: 1rem;
+    max-width: 85%;
+    margin: auto;
+    text-wrap: balance;
+}
+
+.why-chooseus-subcards h3 {
+    font-weight: bold;
+}
+
+@media (max-width:968px) {
+    .why-chooseus--cards {
+        max-width: none;
+    }
+}

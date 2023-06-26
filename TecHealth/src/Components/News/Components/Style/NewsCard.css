@@ -1,39 +1,125 @@
-.all{
-    background-color: aliceblue;
-}
-.news-1{
-    padding: 60px;
-    width: 100%;
-    min-height: 500px;
-    background-color: #f7f7f7;
-}
-.news-2{
-    margin-top: 100px;
-    color: black;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
-.news-3{
-    width: 100%;
-    height: 200px;
-}
-.news-8{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.newscard--parent {
+    align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-block: 3rem;
+    margin-inline: auto;
+    max-width: 90%;
+}
+
+.newscard_container {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px -5px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    width: 26rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.news-1-1{
+
+.newscard_image {
+    overflow: hidden;
+}
+
+.newscard_image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 500ms ease;
+}
+
+.newscard_post--content {
+    margin: 1rem;
+    padding-inline: 0.5rem;
+    text-align: start;
+
+}
+
+.newscard_heading h3 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #0072c6;
+    display: -webkit-box;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.newscard_details p {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.newscard_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newscard_date {
+    font-weight: 600;
+    color: gray;
+}
+
+.newscard_button {
+    background-color: white;
+    color: #34a853;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 1px;
+    transition: 0.5s all;
+}
+
+.newscard_button:hover {
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-block: 2rem;
+}
+
+.newscard_image img:hover {
+    transform: scale(1.3);
+}
+
+.loading--circle {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 20vh;
 }
-@media screen and (max-width: 900px) {
-    .news-1{
-        padding: 20px;
-        width: 100%;
-        min-height: 500px;
-        background-color: #f7f7f7;
+
+/* media queries */
+@media (max-width:1470px) {
+    .newscard--parent {
+        max-width: 90%;
+        gap: 1rem;
     }
-    
+}
+
+@media (max-width:960px) {
+    .newscard--parent {
+        max-width: 90%;
+        gap: 1rem;
+    }
+
+    .newscard_container {
+        width: 20rem;
+    }
 }
