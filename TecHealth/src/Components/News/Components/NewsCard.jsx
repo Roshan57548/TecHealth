@@ -18,6 +18,10 @@ const NewsCard = () => {
       .then((response) => {
         console.log(response);
         setData(response.data.results);
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
       });
   }, []);
   let table;
