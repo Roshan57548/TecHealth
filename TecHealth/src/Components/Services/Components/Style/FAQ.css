@@ -1,5 +1,9 @@
 .faq-0 {
-  width: 85%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
   margin: auto;
   margin-block: 30px;
 }
@@ -14,12 +18,32 @@
   color: #34a853;
   font-size: 1.2rem;
 }
-/* .faq-heading1{
-    color: #34a853;
-    text-decoration: underline;
-    text-underline-offset:7px;
-} */
-@media (max-width: 500px) {
+
+@media (max-width: 900px) {
+  .faq-heading {
+    font-size: 1.5rem;
+  }
+  .faq-0 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+    margin: auto;
+    margin-block: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq-0 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin: auto;
+    margin-block: 30px;
+  }
   .faq-heading {
     font-size: 1.5rem;
   }

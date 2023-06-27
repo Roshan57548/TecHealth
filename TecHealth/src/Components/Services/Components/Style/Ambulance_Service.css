@@ -1,4 +1,6 @@
 .service-main-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-block: 30px;
 }
 .service-image-body {
@@ -43,7 +45,12 @@
     padding-inline: 2rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .service-main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-block: 30px;
+  }
   .service-main-heading {
     font-size: 1.9rem;
   }

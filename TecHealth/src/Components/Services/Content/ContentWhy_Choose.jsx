@@ -10,22 +10,22 @@ const ContentWhy_Choose = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit.sum dolor sit amet consectetur adipisicing elit. Obcaecati facilis aperiam vitae similique distinctio libero, quibusdam consequuntur eum vero pariatur error delectus id iure placeat? Tempora earum incidunt quam ratione at cumque reprehenderit consectetur quaerat amet praesentium repellat, placeat libero porro sit et. Praesentium",
   cards: [
     {
-      heading: "Get help in 10min",
+      heading: "Get help in 10 Min",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis aperiam vitae similique distinctio libero, quibusdam consequuntur eum vero pariatur error delectus id iure placeat? Tempora earum incidunt",
-      icon: <Timer />
+      icon: <Timer id="IconItem"/>
     },
     {
       heading: "Ambulance Facilities",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis aperiam vitae similique distinctio libero, quibusdam consequuntur eum vero pariatur error delectus id iure placeat? Tempora earum incidunt",
-      icon: <MedicalServices />
+      icon: <MedicalServices id="IconItem"/>
     },
     {
-      heading: "Seat Availablility for Attended as Request",
+      heading: "Seat Availablility",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis aperiam vitae similique distinctio libero, quibusdam consequuntur eum vero pariatur error delectus id iure placeat? Tempora earum incidunt",
-      icon: <AirlineSeatIndividualSuite />
+      icon: <AirlineSeatIndividualSuite id="IconItem"/>
     }
   ]
 };

@@ -16,9 +16,9 @@ const Services = () => {
   return (
     <div className='Services'>
         <Service_Header data={ContentService_Header}/>
-        <Popular_Services data={ContentPopular_Services}/>
         <Ambulance_Service data={ContentAmbulance_Service}/>
         <Why_Choose data={ContentWhy_Choose}/>
+        <Popular_Services data={ContentPopular_Services}/>
         <Customer_Service data={ContentCustomer_Service}/>
         <FAQ data={ContentFAQ}/>
     </div>

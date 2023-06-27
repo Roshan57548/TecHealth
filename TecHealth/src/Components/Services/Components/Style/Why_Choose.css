@@ -6,8 +6,10 @@
     font-family: 'Poppins', sans-serif;
     margin-block: 2rem;
     margin-inline: auto;
-    padding-block: 1rem;
-    padding-inline: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 2.5rem;
 }
 
@@ -41,7 +43,15 @@
 }
 
 .why-chooseus-subcards h3 {
-    font-weight: bold;
+    font-weight: medium;
+}
+
+.why-chooseus-subcards span {
+    padding: 10px;
+}
+
+#IconItem{
+    font-size: 50px;
 }
 
 @media (max-width:968px) {

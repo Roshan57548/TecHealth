@@ -1,6 +1,6 @@
 .ServiceHeader{
-    margin-top: 100px;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,23 @@
     font-size: 18px;
     text-align: center;
     font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    .ServiceHeader{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(242, 240, 240) ;
+    }
+    .ServiceHeader_Para1{
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        padding: 0 3px 0 3px;
+        text-align: center;
+    }
 }
