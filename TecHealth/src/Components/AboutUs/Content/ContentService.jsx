@@ -1,4 +1,4 @@
-import img from '../Images/ambulance-goaid-3.png';
+import img from '../Images/ambulance.jpg';
 
 const Service = {
     
