@@ -1,0 +1,97 @@
+.ContactForm-1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 200%;
+}
+.ContactForm-0{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(244, 244, 244, 0.388);
+}
+.error-part{
+    color: red!important;
+    font-size: 10px!important;
+    margin-top: 2px!important;
+    margin-bottom: 0rem!important;
+}
+.send{
+    color: rgb(0, 95, 135);
+    margin-bottom: 10px;
+}
+.ContactForm-2{
+    border-left: 1px solid rgba(0, 94, 135, 0.089);
+    margin-left: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.ContactForm-2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 95, 135);
+}
+.ContactForm-3{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 95, 135);
+
+}
+.form_close_icon{
+    cursor: pointer!important;
+}
+.popup-content-cl-btn{
+    display: flex;
+    justify-content: right;
+}
+@media screen and (max-width:1000px){
+    .ContactForm-1{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .ContactForm-2{
+        border-left: 1px solid rgba(0, 94, 135, 0.121);
+        margin-left: 0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .ContactForm-1{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .ContactForm-2{
+        border-left: 1px solid rgba(0, 94, 135, 0.121);
+        margin-left: 0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .ContactForm-2 h2{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(0, 95, 135);
+    }
+    .ContactForm-3{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgb(0, 95, 135);
+    
+    }
+    .send{
+        color: rgb(0, 95, 135);
+        margin-bottom: 30px;
+    }
+    
+}

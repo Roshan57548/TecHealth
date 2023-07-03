@@ -1,11 +1,23 @@
-import React from "react";
+import React ,{useState} from "react";
+import { useNavigate } from "react-router-dom";
 import "./Style/ChooseUs.css";
+import Form from "../../Form/Amb_Booking_Form";
 import hours from "../Images/24hrs.svg";
 import minutes from "../Images/15mins.svg";
 import policy from "../Images/f-policy.svg";
 import logo from "../Images/logo.png";
 
 const ChooseUs = (props) => {
+   const navigate = useNavigate();
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleClick = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <div className='choose-us__main_container container'>
       <h1 style={{ textAlign: "center," }}>{props.data.Heading} <span className="contactus-heading-1">{props.data.Heading1}</span></h1>
@@ -37,13 +49,20 @@ const ChooseUs = (props) => {
               alt='second'
               className='left-image_second'
             />
-            <button className='btn btn-primary image-btn'>Book now</button>
+            <button className='btn btn-primary image-btn' onClick={handleClick}>Book now</button>
           </div>
           <div className='choose-us__right'>
             <img src={logo} alt='logo' />
           </div>
         </div>
       </div>
+      {showPopup && (
+        <div className="popup">
+          <div className="popup-content">
+            <Form onClose={handleClosePopup} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
