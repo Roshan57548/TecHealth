@@ -8,7 +8,7 @@ const Ambulance_Service = (props) => {
           <div className="service-image-0">
             <div className="service-image-1">
               <img
-                src="https://www.goaid.in/wp-content/uploads/2022/12/1297733538.png"
+                src={props.data.logo}
                 className="service-imgg"
                 alt=""
               />
