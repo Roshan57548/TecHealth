@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogTitle from "@mui/material/DialogTitle";
+import Button from "@mui/material/Button";
 
 const BookForm = (props) => {
   const navigate = useNavigate();
@@ -17,6 +21,16 @@ const BookForm = (props) => {
 
   const handleClosePopup = () => {
     setShowPopup(false);
+  };
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
   };
 
   return (
@@ -38,9 +52,27 @@ const BookForm = (props) => {
               <button className="bookForm-btn" onClick={handleClick}>
                 <PlayArrowIcon /> Book Now
               </button>
-              <button className="bookForm-btn">
+              <button className="bookForm-btn" onClick={handleClickOpen}>
                 <PersonAddAlt1Icon /> Sign-Up As Driver
               </button>
+              <div>
+                <Dialog
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="alert-dialog-title"
+                  aria-describedby="alert-dialog-description"
+                >
+                  <DialogTitle id="alert-dialog-title">
+                    {"Service Available Soon"}
+                  </DialogTitle>
+
+                  <DialogActions>
+                    <Button onClick={handleClose} autoFocus>
+                      Ok
+                    </Button>
+                  </DialogActions>
+                </Dialog>
+              </div>
             </div>
           </div>
           <div className="bookForm-btns-1">

@@ -52,7 +52,6 @@ const ChooseUs = (props) => {
               alt="second"
               className="left-image_second"
             />
-            <button className="btn btn-primary image-btn">Book now</button>
             <button className="btn btn-primary image-btn" onClick={handleClick}>
               Book now
             </button>
