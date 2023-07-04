@@ -11,6 +11,7 @@
 }
 
 .service-1 {
+  margin-top: 3rem;
   padding: 3rem;
   padding-right: 10rem;
   padding-left: 15px;
@@ -81,5 +82,7 @@
   .service-1 {
     padding-left: 0;
     padding-top: 0;
+    margin-top: -2rem;
+
   }
 }

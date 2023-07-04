@@ -1,3 +1,4 @@
+import img from '../Images/service-ambulance.png';
 const ContentAmbulance_Service = {
 
     Heading : "Normal Ambulance ",
@@ -7,7 +8,7 @@ const ContentAmbulance_Service = {
     Para3 :"For this kind of situation, we have a Small, Medium, and Big ambulance available. It can be used by any ordinary person because you do not have to pay a lot for booking it.",
     Para4 :"By downloading the GoAid application to your mobile phone, you can easily book a normal ambulance service for yourself with simplified registration.",
 
-
+   logo: img,
 
 };
 

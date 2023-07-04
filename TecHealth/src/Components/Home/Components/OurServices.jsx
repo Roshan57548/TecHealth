@@ -7,7 +7,7 @@ const OurServices = (props) => {
       <div className="OurServices_heading">{props.data.Heading}</div>
       <div className="OurServices_details">{props.data.details}</div>
 
-      <div className="OurServices_cards">
+      <div className=" OurServices_cards ">
         {props.data.Cards.map((card, index) => (
           <div className="OurServices_card" key={index}>
             <div className="OurServices_card_details">

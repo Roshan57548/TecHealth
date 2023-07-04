@@ -45,6 +45,7 @@
       flex-wrap: wrap;
       justify-content: center;
       padding-bottom: 40px;
+
     }
     
     .advantage_card {
@@ -55,6 +56,8 @@
       border-radius: 10px;
       box-shadow: 0 2px 4px rgba(31, 243, 3, 0.1);
       text-align: center;
+      transition: 500ms all ease-in-out;
+
     }
     
     .card_image {
@@ -147,5 +150,5 @@
       border: 0.5px solid #034e10f1;
       transform: scale(1.04);
       z-index: 2;
-      transition-duration: 500ms;
+      /* transition-duration: 500ms; */
     }
