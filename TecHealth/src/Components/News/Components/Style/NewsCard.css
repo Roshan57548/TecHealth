@@ -18,19 +18,20 @@
     margin-bottom: 1rem;
     overflow: hidden;
     width: 26rem;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
+
 .newscard_image {
+    flex-basis: 100%;
     overflow: hidden;
 }
 
 .newscard_image img {
-    width: auto;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 500ms ease;
@@ -40,6 +41,7 @@
     margin: 1rem;
     padding-inline: 0.5rem;
     text-align: start;
+    max-height: 165px;
 
 }
 
@@ -49,7 +51,7 @@
     overflow: hidden;
     color: #0072c6;
     display: -webkit-box;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 
 }
@@ -60,6 +62,7 @@
     display: -webkit-box;
     font-weight: 300;
     overflow: hidden;
+    font-size: 14px;
 }
 
 .newscard_footer {
@@ -95,7 +98,7 @@
 }
 
 .newscard_image img:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .loading--circle {

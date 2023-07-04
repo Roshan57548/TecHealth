@@ -37,8 +37,16 @@ const NewsCard = () => {
 
   const indexOfLastRecord = currentPage * recordsPerPage;
   const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
-  const numberOfPages = Math.ceil(newsData.length / recordsPerPage);
-  const currentRecords = newsData.slice(indexOfFirstRecord, indexOfLastRecord);
+
+  const filteredNewsData = newsData.filter(
+    (card) => card.image_url && card.description
+  );
+
+  const currentRecords = filteredNewsData.slice(
+    indexOfFirstRecord,
+    indexOfLastRecord
+  );
+  const numberOfPages = Math.ceil(filteredNewsData.length / recordsPerPage);
 
   const handlePageChange = (event, page) => {
     setCurrentPage(page);
@@ -58,7 +66,7 @@ const NewsCard = () => {
     loadingCircle = <CircularProgress className='loading-indicator' />;
   } else {
     const table = currentRecords.map((card, index) => {
-      if (card.image_url) {
+      if (card) {
         return (
           <div className='newscard_container' key={index}>
             <div className='newscard_image'>
