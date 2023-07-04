@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    gap: 40px;
 }
 .Partners_Heading{
     font-size: 38px;
@@ -57,7 +58,9 @@
     gap: 16px;
 }
 .Partners_Logo_Images{
-    width: 155px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
 }
 
 /* Responsive */
