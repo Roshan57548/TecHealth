@@ -57,7 +57,9 @@
 .bookForm-btns-1 {
   width: 100%;
 }
-
+.bookForm-call {
+  color: white;
+}
 .bookForm-btn {
   outline: none;
   border: none;
@@ -68,13 +70,11 @@
   background-color: #34a853;
   color: white;
   transition: 0.3s all;
-  
 }
 
 .bookForm-btn:hover {
   background-color: #0072c6;
   transition-duration: 300ms;
-  
 }
 
 .bookForm-btn-1 {
@@ -96,7 +96,6 @@
 .bookForm-btn-1:hover {
   transform: scale(1.1);
   transition-duration: 300ms;
-  
 }
 
 @media screen and (max-width: 991px) {

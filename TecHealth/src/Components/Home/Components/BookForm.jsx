@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Style/BookForm.css";
+import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
+
 const BookForm = (props) => {
   return (
     <section className="bookForm-0">
@@ -21,19 +23,19 @@ const BookForm = (props) => {
           <div className="bookform-center">
             <div className="bookForm-btns">
               <button className="bookForm-btn">
-                <PlayArrowIcon />{" "}
-                Book Now
+                <PlayArrowIcon /> Book Now
               </button>
               <button className="bookForm-btn">
-                <PersonAddAlt1Icon />{" "}
-                Sign-Up As Driver
+                <PersonAddAlt1Icon /> Sign-Up As Driver
               </button>
             </div>
           </div>
           <div className="bookForm-btns-1">
             <button className="bookForm-btn-1">
-              <CallIcon />{" "}
-              Call Now +91-7897522542
+              <CallIcon />
+              <Link to="tel:+91 9717365884">
+                <span className="bookForm-call">Call Now +91 9717365884</span>
+              </Link>
             </button>
           </div>
         </div>

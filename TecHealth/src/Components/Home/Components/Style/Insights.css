@@ -19,10 +19,6 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: linear-gradient(235deg, #34a853, #0072c6);
 }
-.Insight_Parent_Container:hover {
-  background: linear-gradient(235deg, #0072c6, #34a853);
-}
-
 .Insight_Heading {
   font-size: 40px;
   font-weight: bold;
@@ -46,7 +42,6 @@
   text-align: center;
   cursor: pointer;
 }
-
 .Insight_Content {
   display: flex;
   justify-content: center;
@@ -110,7 +105,6 @@
 }
 
 @media only screen and (max-width: 667px) {
-  
   .Insight_Content_Container {
     display: flex;
     width: 100%;

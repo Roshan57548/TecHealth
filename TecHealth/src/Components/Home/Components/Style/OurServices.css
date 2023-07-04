@@ -76,11 +76,11 @@
   font-weight: bold;
 }
 .OurServices_card:hover {
-  border: 0.1px thick #5f8d6b;
+  /*border: 0.1px thick #5f8d6b;*/
   /* box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.01); */
   z-index: 2;
-  background-color: #34a853;
-  color: #fff;
+  /*background-color: #34a853;*/
+  /*color: #fff;*/
   transform: scale(1.04);
   transition-duration: 5000ms;
 }
