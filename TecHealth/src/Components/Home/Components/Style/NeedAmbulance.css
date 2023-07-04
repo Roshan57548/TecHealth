@@ -89,3 +89,94 @@
     margin-bottom: 30px;
   }
 }
+
+.need_Ambulance-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.need_Ambulance-para {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.need_Ambulance-center {
+  display: flex;
+  justify-content: center;
+}
+
+.need_Ambulance-btns {
+  width: 100%;
+  position: relative;
+}
+
+.need_Ambulance-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 10px 5px;
+  border-radius: 25px;
+  background-color: #34a853;
+  color: white;
+  transition: 0.3s all;
+}
+
+.need_Ambulance-btn:hover {
+  background-color: white;
+  transition-duration: 300ms;
+  color: #0072c6;
+}
+
+@media screen and (max-width: 990px) {
+  .need_Ambulance-0 {
+    padding: 0 50px;
+  }
+  .need_Ambulance-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .need_Ambulance-0 {
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+  .need_Ambulance-heading {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.popup-content {
+  background-color: #fff;
+  padding-top: -10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+.popup-content-cl-btn {
+  color: black;
+}

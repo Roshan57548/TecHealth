@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Form from "../../Form/Amb_Booking_Form";
 import "./Style/BookForm.css";
 import { Link } from "react-router-dom";
 import CallIcon from "@mui/icons-material/Call";
@@ -6,6 +8,17 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
 
 const BookForm = (props) => {
+  const navigate = useNavigate();
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleClick = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
+
   return (
     <section className="bookForm-0">
       <div className="bookForm-1 flex bookForm-2">
@@ -22,7 +35,7 @@ const BookForm = (props) => {
           <p className="bookForm-para">{props.data.para}</p>
           <div className="bookform-center">
             <div className="bookForm-btns">
-              <button className="bookForm-btn">
+              <button className="bookForm-btn" onClick={handleClick}>
                 <PlayArrowIcon /> Book Now
               </button>
               <button className="bookForm-btn">
@@ -44,6 +57,13 @@ const BookForm = (props) => {
           <img src={props.data.image} alt="" />
         </div>
       </div>
+      {showPopup && (
+        <div className="popup">
+          <div className="popup-content">
+            <Form onClose={handleClosePopup} />
+          </div>
+        </div>
+      )}
     </section>
   );
 };
