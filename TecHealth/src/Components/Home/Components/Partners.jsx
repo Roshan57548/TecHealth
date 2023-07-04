@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import Form from "../../Form/Amb_Booking_Form";
 import "./Style/Partners.css";
 const Partners = (props) => {
