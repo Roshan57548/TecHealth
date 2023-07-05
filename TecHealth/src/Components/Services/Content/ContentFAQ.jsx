@@ -5,23 +5,23 @@ const ContentFAQ = {
   faq: [
     {
       id: 0,
-      heading: "When will I receive my pain medication?",
-      para: "Because pain medication can mask important clues to your medical condition, it may not be given until tests are completed and the physician has evaluated the results. However, treatment for pain is important so please let your nurse or physician know when you are experiencing pain or if there is no relief from the medication that was prescribed. You will be asked to rate your pain throughout your stay in our department and, if admitted, on our medical floors.",
+      heading: "What are examples of a medical emergency?",
+      para: "Suspected heart attack – may include chest discomfort or pressure; suspected stroke – sudden onset of numbness or weakness of the face, arm or leg, confusion, trouble speaking, understanding or walking, severe headache with no known cause; unconscious or fainting – for any reason; severe bleeding – even if bleeding has stopped; allergic reaction or asthma attack; traumatic injuries; and severe pain",
     },
     {
       id: 1,
-      heading: "What procedures will I have in the Emergency Department?",
-      para: "Treatments and procedures may include lab work, radiological studies, CAT scans, ultrasound, EKG for cardiac review, medication administration and physician evaluations.",
+      heading: "Will the ambulance take me to the hospital of my choice?",
+      para: "User can choose any Hospital or drop off location, user gets to fill, pick up and drop off details on web app.",
     },
     {
       id: 2,
-      heading: "When will I see a physician?",
-      para: "All patients are first triaged by an ER nurse. Then patients are evaluated by a physician. Patients who have a higher acuity of illness (i.e. heart attack or stroke) may be treated before those patients with less severe conditions (laceration, sprained ankle, etc.). Your patience is always appreciated.",
+      heading: "What are the qualifications of the staff on the ambulance?",
+      para: "Our quality ambulance service partners provide certified drivers and qualified attendants, or paramedics",
     },
     {
       id: 3,
-      heading: "When will I be able to eat?",
-      para: "Patients are able to eat after all their tests are completed and the physician has evaluated the results. On average, it is within three to four hours. However, it is sometimes necessary for patients to remain (nothing by mouth) until further tests and/or studies are completed.",
+      heading: "Will I be charged if I cancel a request for an ambulance before being picked up?",
+      para: "You may or may not be charged for cancelling a booking, depends on partnered ambulance service provider's payment policies.",
     },
     {
       id: 4,

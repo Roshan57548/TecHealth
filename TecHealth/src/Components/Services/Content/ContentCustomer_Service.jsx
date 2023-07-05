@@ -15,19 +15,19 @@ const ContentCustomer_Service = {
     },
     {
       logo: rightone,
-      title: "Choose The Right One",
+      title: "Lingual diversity",
       content:
-        "We assist you in selecting the right ambulance that suits your need."
+        "We are equipped with a multi-linguistic approach to sync in with your tone (Hindi/English)."
     },
     {
       logo: lingual,
-      title: "Lingual Diversity",
+      title: "Pocket friendly",
       content:
-        "We are equipped with a multi-linguistic approach to sync in with your tone (Hindi, Telugu, Kannada and Bengali)."
+        "Price is within a range that is easily manageable or affordable for the average person"
     },
     {
       logo: toll,
-      title: "Free Toll Number",
+      title: "24*7 Chat",
       content:
         "Enquire about our services and opt for pre-book option on our toll free number"
     }

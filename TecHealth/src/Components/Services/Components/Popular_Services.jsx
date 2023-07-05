@@ -19,10 +19,7 @@ const Popular_Services = (props) => {
                 <h5 className='PopularServices_SubHeading'>{ele.heading}</h5>
                 <p className='vices_Paragraph'>
                   {ele.paragraph}
-                  <span className='PopularServices_SubPara'>
-                    {" "}
-                    {ele.subParagraph}
-                  </span>
+                  
                 </p>
               </div>
             );
