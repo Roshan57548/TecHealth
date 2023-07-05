@@ -78,8 +78,8 @@ const BookForm = (props) => {
           <div className="bookForm-btns-1">
             <button className="bookForm-btn-1">
               <CallIcon />
-              <Link to="tel:+91 9717365884">
-                <span className="bookForm-call">Call Now +91 9717365884</span>
+              <Link to="tel:+91 7837294610">
+                <span className="bookForm-call">Call Now +91 7837294610</span>
               </Link>
             </button>
           </div>

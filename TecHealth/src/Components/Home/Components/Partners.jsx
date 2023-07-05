@@ -41,7 +41,7 @@ const Partners = (props) => {
         </div>
         <div className="Partners_buttons_container">
           <h5>{props.data.ButtonDescriptions[1].Description2}</h5>
-          <Link to="tel:+919717365884">
+          <Link to="tel:+917837294610">
             <button className="Partners_Btn Partners_MobileNo_Btn">
               {props.data.Buttons[1].button2}
             </button>

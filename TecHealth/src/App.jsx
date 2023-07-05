@@ -14,7 +14,8 @@ import Blog from "./Components/Blog/Blog";
 import News from './Components/News/News';
 import Services from './Components/Services/Services';
 import BlogDetail from "./Components/BlogDetails/BlogDetail";
-
+import NoPage from './Components/404/NoPage';
+import Apply from './Components/Apply-Now/Apply';
 function App() {
   const { pathname } = useLocation();
 
@@ -34,7 +35,9 @@ function App() {
         <Route path='/Blog/Blog-Detail/:id' element={<BlogDetail/>}/>
         <Route path='/Privacy-Policy' element={<PrivacyPolicy/>}/>
         <Route path='/Terms-&-Conditions' element={<TermsConditions/>}/>
+        <Route path="*" element={<NoPage></NoPage>} />
     </Routes>
+    <Apply />
     <Footer />
   </div>;
 }

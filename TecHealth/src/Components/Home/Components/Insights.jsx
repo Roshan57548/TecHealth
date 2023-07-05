@@ -27,19 +27,19 @@ const Insights = (props) => {
       <div className="Insight_Parent_Container">
         <div className="Insight_Content_Container">
           <div className="Insight_Content">
-            <h1 className="Insight_Content_Heading">{counter1}</h1>
+            <h1 className="Insight_Content_Heading">{counter1}+</h1>
             <p className="Insight_Content_Description">
               {props.data.ProvidedService[0].Description1}
             </p>
           </div>
           <div className="Insight_Content">
-            <h1 className="Insight_Content_Heading">{counter2}</h1>
+            <h1 className="Insight_Content_Heading">{counter2}+</h1>
             <p className="Insight_Content_Description">
               {props.data.ProvidedService[1].Description2}
             </p>
           </div>
           <div className="Insight_Content">
-            <h1 className="Insight_Content_Heading">{counter3}</h1>
+            <h1 className="Insight_Content_Heading">{counter3}+</h1>
             <p className="Insight_Content_Description">
               {props.data.ProvidedService[2].Description3}
             </p>

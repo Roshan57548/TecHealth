@@ -6,17 +6,17 @@ const ContentInsights = {
   ],
   ProvidedService: [
     {
-      Number1: "100",
+      Number1: "1000",
       Description1: "Lives Saved",
     },
 
     {
-      Number2: "800",
+      Number2: "8000",
       Description2: "Patients Served",
     },
 
     {
-      Number3: "500",
+      Number3: "50",
       Description3: "Ambulance",
     },
   ],

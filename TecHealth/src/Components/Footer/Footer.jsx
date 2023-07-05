@@ -21,19 +21,16 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.facebook.com/profile.php?id=100092641240863" target="_blank" className="me-4 text-reset">
             <MDBIcon id="Footer-1" fab icon="facebook-f" />
           </a>
-          <a href="" className="me-4 text-reset">
-            <MDBIcon id="Footer-1" fab icon="twitter" />
+          <a href="https://wa.me/message/QLYBWQ7GTJR2B1" target="_blank" className="me-4 text-reset">
+            <MDBIcon id="Footer-1" fab icon="whatsapp" />
           </a>
-          <a href="" className="me-4 text-reset">
-            <MDBIcon id="Footer-1" fab icon="google" />
-          </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://instagram.com/techealth_india?igshid=ZGUzMzM3NWJiOQ==" target="_blank" className="me-4 text-reset">
             <MDBIcon id="Footer-1" fab icon="instagram" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.linkedin.com/company/techealth23/" target="_blank" className="me-4 text-reset">
             <MDBIcon id="Footer-1" fab icon="linkedin" />
           </a>
         </div>
@@ -47,7 +44,7 @@ const Footer = () => {
                 TecHealth
               </h6>
               <p className="Footer-Color">
-                TecHealth has come a long way ever since its inception in 2018.
+                TecHealth has come a long way ever since its inception in 2022.
                 With a lot of hard work and perseverance we have made a place
                 for ourselves in the market. As a brand and as a service, it is
                 our constant endeavour to redefine ourselves. As a brand and as
@@ -63,16 +60,16 @@ const Footer = () => {
                 <p className="Footer-Color">Ambulance Services</p>
               </p>
               <p>
+                <p className="Footer-Color">Online Consultation</p>
+              </p>
+              <p>
+                <p className="Footer-Color">Veterinary </p>
+              </p>
+              <p>
                 <p className="Footer-Color">E - Pharmacy</p>
               </p>
               <p>
                 <p className="Footer-Color">Health and Wellness</p>
-              </p>
-              <p>
-                <p className="Footer-Color">Online Consultantion Human</p>
-              </p>
-              <p>
-                <p className="Footer-Color">Online Consultantion Pet</p>
               </p>
             </MDBCol>
 
@@ -109,7 +106,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  onClick={() => navigate("/Privacy-Policy")}
+                  onClick={() => navigate("#")}  // LINK - /Privacy-Policy
                   className="Footer-Color"
                   id="footer-link"
                 >
@@ -118,7 +115,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  onClick={() => navigate("/Terms-&-Conditions")}
+                  onClick={() => navigate("#")} // LINK - /Terms-&-Conditions
                   className="Footer-Color"
                   id="footer-link"
                 >
@@ -142,19 +139,19 @@ const Footer = () => {
               </h6>
               <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="home" className="me-2" />
-                1245K, Green Park Colony, Rampur, Roorkee – 247667 (INDIA)
+                New Delhi, India
               </p>
               <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="envelope" className="me-3" />
-                info@cenvs.com
+                info@techealth.in
               </p>
               <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="phone" className="me-3" />{" "}
-                +91-9520717737
+                +91 9717365884
               </p>
               <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="print" className="me-3" />{" "}
-                +91-8937991921
+                +91 7837294610
               </p>
             </MDBCol>
           </MDBRow>

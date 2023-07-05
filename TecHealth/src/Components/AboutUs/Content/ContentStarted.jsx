@@ -4,9 +4,9 @@ import image3 from '../Images/Started_image1.jpg'
 const Started = {
     Heading:"How it all ",
     Heading1:"started?",
-    Details1:"Vineet Jain started RACE (Rapid Action in Car Emergency) in 1996 to provide on-road assistance to vehicles. Even without advanced technologies  at that time, Vineet Jain made it a huge success, spreading it to 30 cities  and 1.5 million customers. By 2010, he and his team had performed more than 1 million rescues!",
-    Details2:"While doing these vehicle rescues, Vineet witnessed many cases in which human lives were at stake. Victims asked for help, but there was no sign of so called dedicated government emergency services. In one case, his acquaintance had critical emergency and called 100, no one picked it up.",
-    Details3:"All these events jolted him. He thought, he was already rescuing vehicles, so why not People?",
+    Details1:"In 2019, a loved one lost his life due to brain hemorrhage. We could have saved his life but due to delay in emergency services and not having proper knowledge of medicine. We lost. At the time, an idea struck in my mind to start something that could save the lives of many others suffering the same problem. ",
+    Details2:"Research work has started to result in the building of a platform that should provide complete healthcare solutions at one place. Now, TecHealth is providing medical services to every age group from 0 to the last day to both you and your pets.",
+    Details3:"Experience seamless patient transport with TecHealth, serving over 1000+ satisfied customers and completing 8000+ successful rides. Our innovative service model prioritizes dedicated care on wheels, revolutionizing your experience with ambulance services. Simplify your journey from point A to point B with TecHealth.",
     i:image3, 
 };
   

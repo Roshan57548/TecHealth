@@ -22,7 +22,7 @@ const ContentPartners = {
       button1: "Book Now",
     },
     {
-      button2: "+91-9717365884",
+      button2: "+91 7837294610",
     },
   ],
 };

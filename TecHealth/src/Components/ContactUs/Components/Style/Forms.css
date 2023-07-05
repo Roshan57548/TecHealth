@@ -47,7 +47,7 @@
     margin: auto;
 
 }
-.error-part{
+#error-part{
     display: flex;
     color: white;
     font-size: 10px;

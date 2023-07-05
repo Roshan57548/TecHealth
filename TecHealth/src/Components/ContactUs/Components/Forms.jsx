@@ -104,7 +104,7 @@ const Forms = (props) => {
                   // required
                 />
                  {user.touched.fullname && user.errors.fullname && (
-                    <p className="error-part">{user.errors.fullname}</p>
+                    <p id="error-part">{user.errors.fullname}</p>
                   )}
               </div>
               {/* email */}
@@ -121,7 +121,7 @@ const Forms = (props) => {
                   // required
                 />
                  {user.touched.email && user.errors.email && (
-                    <p className="error-part">{user.errors.email}</p>
+                    <p id="error-part">{user.errors.email}</p>
                   )}
               </div>
               {/* mobile number */}
@@ -138,7 +138,7 @@ const Forms = (props) => {
                   // required
                 />
                  {user.touched.Phone && user.errors.Phone && (
-                    <p className="error-part">{user.errors.Phone}</p>
+                    <p id="error-part">{user.errors.Phone}</p>
                   )}
               </div>
               {/* message */}

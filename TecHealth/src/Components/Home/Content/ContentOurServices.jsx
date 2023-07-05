@@ -15,25 +15,21 @@ const ContentOurServices = {
       i: Ambulance,
     },
     {
-      h: "E-Pharmacy",
-      i: E_Pharmacy,
-    },
-    // {
-    //     h:"Ambulance",
-    //     i:image3,
-    // },
-    {
-      h: "Health & Wellness",
-      i: Health_and_Wellness,
-    },
-    {
-      h: "Consultation(Human)",
+      h: "Online Consultation",
       i: Consultation_Human,
     },
     {
-      h: "Consultation(Pet)",
+      h: "Veterinary",
       i: Consultation_Pet,
     },
+    {
+      h: "E-Pharmacy",
+      i: E_Pharmacy,
+    },
+    {
+      h: "Health & Wellness",
+      i: Health_and_Wellness,
+    }
   ],
 };
 

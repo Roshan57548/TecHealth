@@ -14,13 +14,13 @@ const Advantages = {
             i:image1
         },
         {
-            h:"Live Tracking",
-            d:"Book an ambulance via goaid ambulance app & track ambulance live location and  share this trip with your family  members",
+            h:"Online Doctor Consultation",
+            d:"App that has revolutionized the way people in India think and take care of their health and fitness needs.",
             i:image2,
         },
         {
-            h:"Reliable",
-            d:"Now ambulance available before your pizza delivery at your  location and only in just pizza price...",
+            h:"E - Pharmacy",
+            d:"Now E - Pharmacy available before your pizza delivery at your location and only in just less price...",
             i:image3,
         },
     ],
