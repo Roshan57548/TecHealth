@@ -31,7 +31,7 @@ const Booking_Amb_Form = ({ onClose }) => {
       .matches(MobileNoRegx, "Phone number is not valid")
       .min(10, "too short")
       .max(10, "too long"),
-    email: yup.string().email().required(),
+    // email: yup.string().email().required(),
     AmbulanceType: yup.string().min(2).required(),
     DropLocation: yup.string().min(2).required(),
     PickupLocation: yup.string().min(2).required(),
@@ -40,7 +40,7 @@ const Booking_Amb_Form = ({ onClose }) => {
   const user = useFormik({
     initialValues: {
       fullname: "",
-      email: "",
+      // email: "",
       MobileNo: "",
       AmbulanceType: "",
       PickupLocation: "",
@@ -51,7 +51,7 @@ const Booking_Amb_Form = ({ onClose }) => {
       const {
         fullname,
         MobileNo,
-        email,
+        // email,
         AmbulanceType,
         PickupLocation,
         DropLocation,
@@ -64,7 +64,7 @@ const Booking_Amb_Form = ({ onClose }) => {
           [
             fullname,
             MobileNo,
-            email,
+            // email,
             AmbulanceType,
             PickupLocation,
             DropLocation,
@@ -133,7 +133,7 @@ const Booking_Amb_Form = ({ onClose }) => {
                       )}
                     </Form.Group>
                   </Row>
-                  <Row className="mb-3">
+                  {/* <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label>Email</Form.Label>
                       <Form.Control
@@ -147,7 +147,7 @@ const Booking_Amb_Form = ({ onClose }) => {
                         <p className="error-part">{user.errors.email}</p>
                       )}
                     </Form.Group>
-                  </Row>
+                  </Row> */}
                   <Row>
                     <Form.Group className="mb-3" controlId="formGridtext">
                       <Form.Label>Ambulance type</Form.Label>

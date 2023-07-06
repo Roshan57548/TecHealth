@@ -1,6 +1,7 @@
 import React from "react";
 import "./Style/AboutUsTecHealth.css";
 import { useNavigate } from "react-router-dom";
+import image_1 from '../../Home/Images/ambulance1.png';
 const AboutUsTecHealth = (props) => {
   const navigate = useNavigate();
   return (
@@ -34,7 +35,8 @@ const AboutUsTecHealth = (props) => {
           </p>
         </div>
         <div className='AboutUsTecHealth_video'>
-          <iframe
+          <img src={image_1}  height='100%'></img>
+          {/* <iframe
             className='AboutUsTecHealth_iframe'
             width='100%'
             height='100%'
@@ -43,7 +45,7 @@ const AboutUsTecHealth = (props) => {
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </div>

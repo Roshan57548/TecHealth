@@ -46,7 +46,9 @@
   margin: 0px;
 }
 .AboutUsTecHealth_video {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   height: 260px;
 }
@@ -71,6 +73,7 @@
     height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .AboutUsTecHealth_iframe {
     width: 500px;
@@ -112,7 +115,7 @@
   }
   .AboutUsTecHealth_video {
     margin-top: 30px;
-    height: 280px;
+    
   }
   .AboutUsTecHealth_iframe {
     width: 340px;
